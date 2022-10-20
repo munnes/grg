@@ -19,7 +19,7 @@ const Home = () => {
                 </div>
                 <hr/>
                 <div className="row">
-                <div className="col-6" style={{ marginTop: 5,borderRight:'solid',borderColor:'gray' }}>
+                <div className="col-12 col-md-6" style={{ marginTop: 5,borderRight:'solid',borderColor:'gray' }}>
                    <h3 style={{ color: '#004b79' }}>Supported By</h3> 
                    <div className="row">
                  <div className="col-2"> <img src='images/JuanTorrents.jpeg' style={{borderRadius:50}}/></div> 
@@ -29,24 +29,24 @@ const Home = () => {
                     playesrsthe way towards globalization via the UAE market and vice versa.<Link to='/' >Read more</Link> </div>
                     </div>
                 </div>
-                <div className="col-6" style={{ marginTop: 5 }}>
+                <div className="col-12 col-md-6" style={{ marginTop: 5 }}>
                     <h3 style={{ color: '#004b79' }}>Our Expertise</h3>
                     <div>UAE Free Zones Team have the expertise you need to complete the legal requirements for company formation, the setting up of bank accounts, and the acquiring of residency visas.</div>
                  <h5 style={{color:'#7f181b',textAlign:'center'}}>We handle the full range of business set-up services</h5>
                    <div className="row" style={{justifyContent:'center'}}>
-                   <div className="col-5  btn btn-warning" style={{margin:5}}> 
+                   <div className="col-12 col-md-5  btn btn-warning" style={{margin:5}}> 
                    <Link to='/' style={{textDecoration:'none'}}> Establishing public shareholding companies</Link> </div> 
-                   <div className="col-5  btn btn-warning" style={{margin:5}}>  
+                   <div className="col-12 col-md-5  btn btn-warning" style={{margin:5}}> 
                     <Link to='/' style={{textDecoration:'none'}}> Licensing partnerships and sole establishments </Link></div>
-                   <div className="col-5  btn btn-warning" style={{margin:5}}>   
+                   <div className="col-12 col-md-5  btn btn-warning" style={{margin:5}}>   
                     <Link to='/' style={{textDecoration:'none'}}> Licensing branch and representative offices</Link></div>
-                   <div className="col-5  btn btn-warning" style={{margin:5}}>  
+                   <div className="col-12 col-md-5  btn btn-warning" style={{margin:5}}>  
                    <Link to='/' style={{textDecoration:'none'}}> Obtaining professional, industrial, trade licenses</Link></div>
-                   <div className="col-5  btn btn-warning" style={{margin:5}}>   
+                   <div className="col-12 col-md-5  btn btn-warning" style={{margin:5}}>   
                    <Link to='/' style={{textDecoration:'none'}}> Licensing off-shore companies</Link></div>
-                   <div className="col-5  btn btn-warning" style={{margin:5}}> 
+                   <div className="col-12 col-md-5  btn btn-warning" style={{margin:5}}> 
                     <Link to='/' style={{textDecoration:'none'}}>  Trademark registration</Link></div>
-                   <div className="col-5  btn btn-warning" style={{margin:5}}>
+                    <div className="col-12 col-md-5  btn btn-warning" style={{margin:5}}> 
                      <Link to='/' style={{textDecoration:'none'}}>  UAE Will Writing</Link></div>
                        </div>
                 </div>
@@ -57,43 +57,43 @@ const Home = () => {
                     <h1 style={{ color: 'white', fontWeight: 'bold' }}>Our Services</h1>
                     </div>
                     <div className="row container" style={{justifyContent:'center'}}>
-                        <div className="col-2 btn btn-outline-dark" style={{margin:5}} >
+                        <div className="col-12 col-md-2 btn btn-outline-dark" style={{margin:5}} >
                     
                         <p>Form Your Company In UAE</p>
                         </div>
-                        <div className="col-2 btn btn-outline-dark" style={{margin:5}} >
+                        <div className="col-12 col-md-2 btn btn-outline-dark" style={{margin:5}} >
                     
                         <p>Redomicile Your Company to UAE</p>
                         </div>
-                        <div className="col-2 btn btn-outline-dark" style={{margin:5}} >
+                        <div className="col-12 col-md-2 btn btn-outline-dark" style={{margin:5}} >
                     
                         <p>Business Setup in Dubai</p>
                         </div>
-                        <div className="col-2 btn btn-outline-dark" style={{margin:5}} >
+                        <div className="col-12 col-md-2 btn btn-outline-dark" style={{margin:5}} >
                     
                         <p>Company Registration In Dubai</p>
                         </div>
-                        <div className="col-2 btn btn-outline-dark" style={{margin:5}} >
+                        <div className="col-12 col-md-2 btn btn-outline-dark" style={{margin:5}} >
                     
                         <p>Company Incorporation In Dubai</p>
                         </div>
-                        <div className="col-2 btn btn-outline-dark" style={{margin:5}} >
+                        <div className="col-12 col-md-2 btn btn-outline-dark" style={{margin:5}} >
                     
                         <p>Company Formation In UAE</p>
                         </div>
-                        <div className="col-2 btn btn-outline-dark" style={{margin:5}} >
+                        <div className="col-12 col-md-2 btn btn-outline-dark" style={{margin:5}} >
                     
                         <p>Accounting-Taxation-Auditing in UAE</p>
                         </div>
-                        <div className="col-2 btn btn-outline-dark" style={{margin:5}} >
+                        <div className="col-12 col-md-2 btn btn-outline-dark" style={{margin:5}} >
                     
                         <p>Open Bank Account in Dubai</p>
                         </div>
-                        <div className="col-2 btn btn-outline-dark" style={{margin:5}} >
+                        <div className="col-12 col-md-2 btn btn-outline-dark" style={{margin:5}} >
                     
                         <p>UAE Online Directory</p>
                         </div>
-                        <div className="col-2 btn btn-outline-dark" style={{margin:5}} >
+                        <div className="col-12 col-md-2 btn btn-outline-dark" style={{margin:5}} >
                     
                         <p>GRG Business Centers</p>
                         </div>

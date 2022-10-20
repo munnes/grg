@@ -54,16 +54,16 @@ class Header extends Component {
 
         return (
             <>
-                <Navbar style={{backgroundColor:'#0091cd'}} expand="md"  >
-                    <div className="container" style={{fontFamily: 'Open Sans'}}>
+                <Navbar style={{ backgroundColor: '#0091cd' }} expand="md"  >
+                    <div className="container" style={{ fontFamily: 'Open Sans' }}>
                         <NavbarToggler onClick={this.toggleNav} />
                         <NavbarBrand className="me-auto" href="/">
-                            <img src="images/logo.png" height="70" width="70"
+                            <img src="images/logo.png" height="70" width="70" 
                                 alt="FreeZone" />
                         </NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
-                          
+
                                 <NavItem>
                                     <Dropdown className='nav-link' isOpen={this.state.dropdownOpen} toggle={this.toggle}>
                                         <DropdownToggle
@@ -73,7 +73,7 @@ class Header extends Component {
                                             aria-expanded={this.state.dropdownOpen}
                                             className='menu'
                                         >
-                                           <span className="fa fa-list fa-lg " >Free Zones </span>
+                                            <span className="fa fa-list fa-lg " >Free Zones </span>
                                         </DropdownToggle>
                                         <DropdownMenu style={{ marginTop: '10vh' }}>
                                             <div className='container row ' style={{ width: '73vw', }} >
@@ -142,102 +142,102 @@ class Header extends Component {
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/services">
-                                       Our Services
+                                        Our Services
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/services">
-                                    Business Directory
+                                        Business Directory
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/services">
-                                   Free Zones Offers
+                                        Free Zones Offers
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/services">
-                                   Our Promotions
+                                        Our Promotions
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/services">
-                                   Careers
+                                        Careers
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/services">
-                                   Articles
+                                        Articles
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/services">
-                                 Contact Us
+                                        Contact Us
                                     </NavLink>
                                 </NavItem>
 
 
                             </Nav>
-                          
+
                         </Collapse>
                     </div>
                 </Navbar>
-              <div style={{ backgroundImage: ` url('images/unitedarabemirates.jpg')`}} className='article'> 
-           
-           
+                <div style={{ backgroundImage: ` url('images/unitedarabemirates.jpg')` }} className='article'>
+
+
                     <div className="container"  >
                         <div className="row row-header" >
-       
-                            <div className="col-12 col-md-6" style={{color:'white'}}>
-                            <FadeTransform in
-            transformProps={{
-                exitTransform: 'scale(0.5) translateY(-50%)'
-            }}>
-                                <h2 >UAE Free Zones</h2>
-                                <h6>We are with you in your journey to succeed in your <br/>enterprise to grow and to flourish – to be a pioneer</h6>
-                           </FadeTransform>
+
+                            <div className="col-12 col-md-6" style={{ color: 'white' }}>
+                                <FadeTransform in
+                                    transformProps={{
+                                        exitTransform: 'scale(0.5) translateY(-50%)'
+                                    }}>
+                                    <h2 >UAE Free Zones</h2>
+                                    <h6>We are with you in your journey to succeed in your <br />enterprise to grow and to flourish – to be a pioneer</h6>
+                                </FadeTransform>
                             </div>
 
                             <div className="col-12 col-md-6">
-                               
-                            <FadeTransform in
-            transformProps={{
-                exitTransform: 'scale(0.5) translateY(-50%)'
-            }}>
-                                <Card  style={{width:'70%',float:'right',marginTop:10,marginBottom:10}}>
-                                    <CardBody>
-                                        <Form style={{ color: 'black' }}>
-                                            <FormGroup>
-                                                <Label htmlFor="username">Name <span style={{ color: 'red' }}>*</span></Label>
-                                                <Input type="text" id="username" name="username"
-                                                    innerRef={(input) => this.username = input} />
-                                            </FormGroup>
-                                            <FormGroup>
-                                                <Label htmlFor="email">Email <span style={{ color: 'red' }}>*</span></Label>
-                                                <Input type="email" id="email" name="email"
-                                                    innerRef={(input) => this.password = input} />
-                                            </FormGroup>
-                                            <FormGroup>
-                                                <Label htmlFor="phone">Phone</Label>
-                                                <Input type="phone" id="phone" name="phone"
-                                                    innerRef={(input) => this.password = input} />
-                                            </FormGroup>
-                                            <FormGroup>
-                                                <Label htmlFor="enquiry">Enquiry <span style={{ color: 'red' }}>*</span></Label>
-                                                <Input type="textarea" id="enquiry" name="enquiry"
-                                                    innerRef={(input) => this.password = input} />
-                                            </FormGroup>
 
-                                            <Button type="submit" value="submit" style={{ backgroundColor: '#0091cd', marginTop: 10 }}>Submit Your Enquiry</Button>
-                                        </Form>
-                                    </CardBody>
-                                </Card>
+                                <FadeTransform in
+                                    transformProps={{
+                                        exitTransform: 'scale(0.5) translateY(-50%)'
+                                    }}>
+                                    <Card style={{ width: '70%', float: 'right', marginTop: 10, marginBottom: 10 }}>
+                                        <CardBody>
+                                            <Form style={{ color: 'black' }}>
+                                                <FormGroup>
+                                                    <Label htmlFor="username">Name <span style={{ color: 'red' }}>*</span></Label>
+                                                    <Input type="text" id="username" name="username"
+                                                        innerRef={(input) => this.username = input} />
+                                                </FormGroup>
+                                                <FormGroup>
+                                                    <Label htmlFor="email">Email <span style={{ color: 'red' }}>*</span></Label>
+                                                    <Input type="email" id="email" name="email"
+                                                        innerRef={(input) => this.password = input} />
+                                                </FormGroup>
+                                                <FormGroup>
+                                                    <Label htmlFor="phone">Phone</Label>
+                                                    <Input type="phone" id="phone" name="phone"
+                                                        innerRef={(input) => this.password = input} />
+                                                </FormGroup>
+                                                <FormGroup>
+                                                    <Label htmlFor="enquiry">Enquiry <span style={{ color: 'red' }}>*</span></Label>
+                                                    <Input type="textarea" id="enquiry" name="enquiry"
+                                                        innerRef={(input) => this.password = input} />
+                                                </FormGroup>
+
+                                                <Button type="submit" value="submit" style={{ backgroundColor: '#0091cd', marginTop: 10 }}>Submit Your Enquiry</Button>
+                                            </Form>
+                                        </CardBody>
+                                    </Card>
 
                                 </FadeTransform>
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                     <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
                     <ModalBody>
